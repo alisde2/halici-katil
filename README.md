@@ -1,15 +1,7 @@
 HALICI KATİL — YAMA NOTLARI
 Keçeli Studios
 =====================================================================
-
-SÜRÜM 1.5.4
----------------------------------------------------------------------
-DEĞİŞİKLİKLER
-* Ali ile Azra arasındaki yol boyu konuşmalar kaldırıldı; yalnızca final
-  sahnesi kaldı. Ali'nin son sözü ve 16. bölümdeki mezar sahnesi buna göre
-  yeniden yazıldı ve seslendirildi.
-+ Sunucu uyandırma botu: sunucu kendini her 10 dakikada bir uyandırır,
-  bağlanırken 1 dakika beklemek gerekmez (sunucu dosyası güncellenmeli).
+.
 
 =====================================================================
 
@@ -104,11 +96,6 @@ DÜZELTMELER
 
 =====================================================================
 
-SÜRÜM 1.2.0
----------------------------------------------------------------------
-DÜZELTMELER
-* Ali ile Azra konuşmaları sadeleştirildi: romantik değil, diğerlerinden
-  biraz daha yakın iki arkadaş gibi konuşuyorlar.
 
 =====================================================================
 
