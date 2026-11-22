@@ -209,16 +209,7 @@ DÜZELTMELER
 * Eski kayıtlar korunuyor: replik kimlikleri, kaset kimlikleri ve bölüm
   numaraları aynı; "duru" ile kaydedilmiş oyunlar "azra" ile devam ediyor.
 
-SÜRÜM 1.5.4
----------------------------------------------------------------------
-DEĞİŞİKLİKLER
-* Ali ile Azra arasındaki yol boyu konuşmalar kaldırıldı; yalnızca final
-  sahnesi kaldı. Ali'nin son sözü ve 16. bölümdeki mezar sahnesi buna göre
-  yeniden yazıldı ve seslendirildi.
-+ Sunucu uyandırma botu: sunucu kendini her 10 dakikada bir uyandırır,
-  bağlanırken 1 dakika beklemek gerekmez (sunucu dosyası güncellenmeli).
 
-=====================================================================
 
 SÜRÜM 1.5.3
 ---------------------------------------------------------------------
