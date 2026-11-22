@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "notes": "Halıcı Katil 2.0.0\n\n+ GRAFİK: PBR doku seti hattı (dosya bulunursa albedo/normal/roughness, yoksa prosedürel yedek),\n  prosedürel ortam haritasıyla IBL, High kalitede SMAA, yumuşatılmış fener konisi ve su birikintileri.\n+ AÇILIŞ TAKILMASI: GTAO ısınması yükleme perdesinin arkasına taşındı; soğuk ilk kare\n  194–692 ms yerine 9–30 ms.\n+ HAREKET: Üçüncü şahısta gövde hareket yönüne dönüyor; strafe ve geri yürüyüş artık kaymıyor.\n+ KARAKTER: İskeletli GLB karakter hattı + UAL kliplerini yeni iskelete taşıma (retarget),\n  morph tabanlı dudak senkronu, silahın el kemiğine bağlanması.\n+ SES: HRTF konumsal ses (PannerNode), zemine göre 4 adım yüzeyi, ch1/ch2/ch3 reverb.\n+ HİS: Bölüm yeniden yüklenmeden yumuşak yeniden doğma, yerel ölüm/süre günlüğü,\n  günlük gece tohumu, kumanda titreşimi.\n+ TEKNİK: ?stats=1 geliştirici HUD'u, yerel hata günlüğü, meshopt ile sıkıştırılmış GLB desteği.\n~ Yusuf'un ikinci kez ölmesine yol açan sahne kilidi düzeltildi (yalnız 2. bölüm patikası).\n~ Kamerayla gezen toz/sis parçacıkları kaldırıldı; atmosfer FogExp2 ile korunuyor.\n~ Sunucu /version ucu ve güncelleme notları 2.0.0'a göre güncellendi.",
+  "pub_date": "2026-11-22T23:17:18.374Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRzA0RytWNGhEaGs3cXlacWNqUTVrNVBIbzNKWXJ4eFJXTnFMdFhrT3NWV2plSThrZGVySlJ5aC8rbXBZb2NQNEt6SmlsclQ4T0VBejZYY1JjeDJ2ZHU4Si9lekl1eEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzg5NDM3CWZpbGU6SGFsxLFjxLEgS2F0aWxfMi4wLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMC4wCkxEbUJlT2xhTmJRMVNyZzh5SDcxcExTMkZXRG40Tnk2a24ySkplTzA0UzJTWU5sbUp6RldjcWtFV0x4bGpYaUZkYzJQcGtKS0hIcFhibW0ycWsxT0NRPT0K",
+      "url": "https://github.com/alisde2/halici-katil/releases/download/v2.0.0/Halici-Katil_2.0.0_x64-setup.exe"
+    }
+  }
+}
