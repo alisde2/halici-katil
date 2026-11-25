@@ -2,6 +2,74 @@ HALICI KATİL — YAMA NOTLARI
 Keçeli Studios
 =====================================================================
 
+SÜRÜM 2.3.0  —  "Omuz Üstü"
+---------------------------------------------------------------------
+
+YENİ
++ ÜÇÜNCÜ ŞAHIS VARSAYILAN: Oyun artık kameranın arkasında başlıyor. Kamera
+  omuz üstünde duruyor (2,58 m mesafe, 0,62 m sağ omuz ofseti), göz hizasının
+  0,18 m üstünde ve bakışı 0,4 m aşağıda tutuyor; survivor ekranın alt üçte
+  birinde kalıyor, ayakları kesilmiyor.
++ KARAKTER DOLGU IŞIĞI: Bölümler el feneri için ışıklandırıldığı için kamera
+  arkaya geçince gövde karanlıkta kayboluyordu. Kameraya bağlı çok zayıf bir
+  dolgu ışığı eklendi; odayı aydınlatmıyor, yalnızca karakteri okunur kılıyor.
+  Üçüncü şahısta açık, birinci şahısta ve sinematiklerde tamamen kapalı.
++ ELDE SİLAH VE KIYAFET: Üçüncü şahısta silah gerçekten avuçta, kıyafet ve
+  yürüyüş animasyonu görünüyor.
+
+DEĞİŞEN
++ Bölüm 1 (otobüs) birinci şahıs kaldı: oturarak oynanan bir sinematik, arkasına
+  kamera koyunca sadece koltuk görünüyor.
++ V tuşu hâlâ birinci şahsa geçiyor; seçtiğin mod bölümler arasında korunuyor.
+
+NOT
++ Dar koridorlarda kamera duvara sıkışınca oyuncuya yaklaşıyor; görüş kısalır.
+  Bu, 2.0'dan beri süren kamera çarpışma davranışı.
+
+
+SÜRÜM 2.2.0  —  "Eller"
+---------------------------------------------------------------------
+
+YENİ
++ BİRİNCİ ŞAHIS KOLLAR: Oyuncunun kendi ön kolları ve elleri ekranda. Silahsız
+  bölümlerde boş ekran yerine nefes alan, yürürken sallanan iki kol görünüyor.
++ TUTUŞ MEKANİKLERİ: Her silahın kendi tutuşu var — balta kısa tutuş, sopa ve
+  pompalı iki el, bıçak ters tutuş. Pozlar silahın tutuş noktasıyla aynı yerde,
+  yani el gerçekten sapı kavrıyor.
++ SİLAH DEĞİŞİMİ: Silah değiştirirken eller 0,26 saniye aşağı inip geri geliyor.
++ SALDIRI: Vuruşta el silahla birlikte savruluyor.
++ FENER KAVRAYIŞI: Fener açıkken sol el gövdeyi kavrıyor, merceği parlıyor;
+  pil bittiğinde el açılıyor.
++ ETKİLEŞİM UZANMASI: Bir eşyaya veya kapıya nişan alınca sağ el öne uzanıyor.
++ MİKRO DETAY: dururken nefes, yürürken adım salınımı, koşarken daha sert
+  sallanma; üçüncü şahısta ve sinematiklerde eller gizleniyor.
+
+NOT
++ Eller yalnızca birinci şahısta görünür (V tuşu). Çok yakın planda ön kol
+  kalın duruyor; bilinen kusur, sıradaki turda ele alınacak.
+
+
+SÜRÜM 2.1.0  —  "Dokular"
+---------------------------------------------------------------------
+
+YENİ
++ BEŞ PBR DOKU SETİ: Tuğla, beton, sıva, fayans ve ahşap için 512×512
+  albedo + normal + roughness haritaları üretildi. Duvarlar, zeminler, tavanlar
+  ve taş yüzeyler artık ışığa kabartma olarak cevap veriyor.
++ HER YÜZEYDE: Doku seti hattı kurulmadan önce yazılmış yaklaşık 70 yüzey de
+  setlere bağlandı; koyu ahşap mobilya ahşap setini kullanıyor.
++ `npm run textures`: Doku setleri tek komutla yeniden üretilebiliyor. Saf Node,
+  ek paket veya indirme yok.
+
+DEĞİŞEN
++ Set renkleri nötr tonlu üretiliyor; rengi malzemenin tonu veriyor, böylece
+  tek doku seti her bölümün paletine uyuyor ve hiçbir yüzey koyulaşmıyor.
+
+NOT
++ Paket boyutu yaklaşık 5 MB arttı (doku setleri). Doku dosyası bulunamazsa
+  görünüm eskisi gibi prosedürel dokulara dönüyor.
+
+
 SÜRÜM 2.0.0  —  "Sütunlar"
 ---------------------------------------------------------------------
 
@@ -209,7 +277,16 @@ DÜZELTMELER
 * Eski kayıtlar korunuyor: replik kimlikleri, kaset kimlikleri ve bölüm
   numaraları aynı; "duru" ile kaydedilmiş oyunlar "azra" ile devam ediyor.
 
+SÜRÜM 1.5.4
+---------------------------------------------------------------------
+DEĞİŞİKLİKLER
+* Ali ile Azra arasındaki yol boyu konuşmalar kaldırıldı; yalnızca final
+  sahnesi kaldı. Ali'nin son sözü ve 16. bölümdeki mezar sahnesi buna göre
+  yeniden yazıldı ve seslendirildi.
++ Sunucu uyandırma botu: sunucu kendini her 10 dakikada bir uyandırır,
+  bağlanırken 1 dakika beklemek gerekmez (sunucu dosyası güncellenmeli).
 
+=====================================================================
 
 SÜRÜM 1.5.3
 ---------------------------------------------------------------------
