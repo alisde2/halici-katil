@@ -1,25 +1,11 @@
 {
-  "version": "2.3.0",
-  "notes": [
-    "Halıcı Katil 2.3.0",
-    "",
-    "+ KAMERA: Oyun artık üçüncü şahısla oynanıyor. Kamera omuz üstünde, göz hizasının biraz",
-    "  üstünde ve hafif aşağı bakıyor; karakter ekranın alt üçte birinde kalıyor.",
-    "+ GÖRÜNÜM: Karanlık bölümlerde karakter gövdesi kaybolmasın diye kameraya bağlı çok zayıf bir",
-    "  dolgu ışığı eklendi — odayı aydınlatmıyor, yalnızca survivor'ı okunur kılıyor.",
-    "+ Bölüm 1 (otobüs) birinci şahıs kalıyor: orası oturarak oynanan bir sinematik.",
-    "+ V tuşu hâlâ birinci şahsa geçiyor; seçtiğin mod bölümler arasında korunuyor.",
-    "+ Elde silah, kıyafet ve yürüyüş animasyonu üçüncü şahısta görünüyor (2.2'nin birinci şahıs",
-    "  elleri yalnızca V ile geçince devreye giriyor).",
-    "",
-    "Not: Üçüncü şahısta kamera duvara sıkışırsa oyuncuya yaklaşıyor; dar koridorlarda görüş",
-    "kısalabilir."
-  ],
-  "pub_date": "2026-11-25T16:10:44.383Z",
+  "version": "2.6.0",
+  "notes": "Halıcı Katil 2.6.0\n\n+ OTOMATİK KALİTE: Oyun ilk açılışta ekran kartını tanıyıp kendine uygun görüntü ayarını seçiyor.\n  Oyun sırasında kare hızı düşerse yalnız çözünürlük kısılıyor — seçtiğin ayar bozulmuyor.\n+ ODA LİNKİ: Oda kurduğunda \"Davet linkini kopyala\" ile arkadaşına bir link gönderiyorsun.\n  Link kodu gösterir; oyun halicikatil:// bağlantısıyla açılırsa kod hazır gelir.\n+ KAYIT KORUMASI: Bozuk bir kayıt anahtarı oyunu kilitlemiyor; onarım günlüğüne alınıp\n  oyun varsayılanlarla açılıyor. Ayarlardan kayıt dosyasını indirebilirsin.\n+ HATA RAPORU: Ayarlar > Kontroller > \"Hata raporunu indir\" son hataları düz metin olarak verir.\n+ MADALYALAR: İstatistikler tablosunda bölüm başına madalya (bitirildi, az ölüm, hızlı).\n+ HAZIR PROFİLLER: Grafik ayarlarında tek tıkla Performans / Dengeli / Kalite.\n\nNot: Çok oyunculu için sunucunun da bu sürümle yeniden yüklenmesi gerekir; herkes aynı sürümü\nkullanmalı.",
+  "pub_date": "2026-11-27T16:39:50.316Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRzA0RytWNGhEaHJUUUhFaVYyUjBCWTF5SmtrTFZPdXpMWFF2QWV4L1NQUTNwWE8yZXZrdWpxUUtzczhtOUhRRTJveW9XS1MrYmx6SXpCV2kzc1orVWxpYms0UC9CbVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIzMDQzCWZpbGU6SGFsxLFjxLEgS2F0aWxfMi4zLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMy4wCmxWYjVteDNZOXR3QS9XK0pXdjk1RTVTNStWY3lsUnViMHJEMzZjdkhiampiMVBFajZYSXFid1N1cmE2allqTFVCY2VLcmtHaktrU0RCVW0vN0E2YkN3PT0K",
-      "url": "https://github.com/alisde2/halici-katil/releases/download/v2.3.0/Halici-Katil_2.3.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRzA0RytWNGhEaGdWSjN1MVdFRVhZTC8zNWtHclVqNlNEdU1HQlZjdDRsQWtFMGx0Yno1Skw1TkxOcVIrVHVobXUvZTBidGxoR1gzVElDdGRGU0xyUStwbXZqNUV6UHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzk3NTg5CWZpbGU6SGFsxLFjxLEgS2F0aWxfMi42LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNi4wClR5YVR0d1djTDI4Q240Z3BTcEtTS3J1dDRnTExtZEIybGplMnpoWGhBd2FQTmw3YXFYcko1S05Id1dYTHJqdVdpd1E0aVVTSWx1VlBLc2QzQVBEVUNnPT0K",
+      "url": "https://github.com/alisde2/halici-katil/releases/download/v2.6.0/Halici-Katil_2.6.0_x64-setup.exe"
     }
   }
 }
